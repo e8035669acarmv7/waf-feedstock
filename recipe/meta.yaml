@@ -12,11 +12,10 @@ source:
 
 build:
   number: 0
-  skip: true  # [win]
   script:
     - python waf-light --make-waf --tool=swig,cython,boost,use_config
     - cp waf "${PREFIX}/bin"     # [unix]
-    - copy waf "%LIBRARY_BIN%"   # [win]
+    - copy waf "%SCRIPTS%"   # [win]
 
 requirements:
   build:
@@ -37,3 +36,5 @@ about:
 extra:
   recipe-maintainers:
     - jakirkham
+    - nicoddemus
+    - tarcisiofischer
