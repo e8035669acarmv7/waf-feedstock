@@ -1,0 +1,7 @@
+# simple script to test if waf is working
+
+def configure(conf):
+    print("configure!")
+
+def build(bld):
+    print("build!")
