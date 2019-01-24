@@ -18,7 +18,9 @@ build:
     - copy waf "%SCRIPTS%"   # [win]
 
 requirements:
-  build:
+  build:    
+    - {{ compiler('c') }}
+  host:
     - python
 
   run:
