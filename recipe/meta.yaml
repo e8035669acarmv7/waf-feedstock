@@ -18,10 +18,8 @@ build:
     - copy waf "%SCRIPTS%"   # [win]
 
 requirements:
-  build:
-    - {{ compiler('fortran') }}
+  build:    
     - {{ compiler('c') }}
-    - {{ compiler('cxx') }}
   host:
     - python
 
