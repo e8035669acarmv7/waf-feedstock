@@ -15,21 +15,7 @@ Current build status
 ====================
 
 
-<table><tr>
-    <td>Travis</td>
-    <td>
-      <a href="https://travis-ci.org/conda-forge/waf-feedstock">
-        <img alt="macOS" src="https://img.shields.io/travis/conda-forge/waf-feedstock/master.svg?label=macOS">
-      </a>
-    </td>
-  </tr><tr>
-    <td>Drone</td>
-    <td>
-      <a href="https://cloud.drone.io/conda-forge/waf-feedstock">
-        <img alt="linux" src="https://img.shields.io/drone/build/conda-forge/master.svg?label=Linux">
-      </a>
-    </td>
-  </tr>
+<table>
     
   <tr>
     <td>Azure</td>
@@ -269,6 +255,7 @@ Feedstock Maintainers
 =====================
 
 * [@dfroger](https://github.com/dfroger/)
+* [@hadim](https://github.com/hadim/)
 * [@jakirkham](https://github.com/jakirkham/)
 * [@nicoddemus](https://github.com/nicoddemus/)
 * [@tarcisiofischer](https://github.com/tarcisiofischer/)
