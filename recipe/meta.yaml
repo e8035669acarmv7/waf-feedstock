@@ -1,17 +1,16 @@
-{% set name = "waf" %}
 {% set version = "2.0.8" %}
 
+
 package:
-  name: {{ name }}
+  name: waf
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://github.com/waf-project/waf/archive/{{ name }}-{{ version }}.tar.gz
-  sha256: 0eeacb5a320caba819d6a5ea947a6ace527bbdd9789d888ea0f1313b9c2cad0b
+  url: https://waf.io/waf-{{ version }}.tar.bz2
+  sha256: ea5833333e1b15ded5c61c58aa3639b938e931b6552226a08ed8353d398ce1b5
 
 build:
-  number: 1005
+  number: 1006
   script:
     - python waf-light --make-waf --tool=swig,cython,boost,use_config
     - cp waf "${PREFIX}/bin"     # [unix]
@@ -39,9 +38,9 @@ test:
 
 about:
   home: https://waf.io
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
-  license_file: LICENSE
+  license_file: utils/launcher/LICENSE
   summary: A build automation tool.
 
 extra:
