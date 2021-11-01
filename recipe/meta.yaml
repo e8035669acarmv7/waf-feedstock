@@ -40,7 +40,7 @@ about:
   home: https://waf.io
   license: BSD-3-Clause
   license_family: BSD
-  license_file: LICENSE
+  license_file: utils/launcher/LICENSE
   summary: A build automation tool.
 
 extra:
