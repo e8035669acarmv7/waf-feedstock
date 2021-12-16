@@ -9,6 +9,10 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/waf-feedstock/b
 
 Summary: A build automation tool.
 
+Development: https://gitlab.com/ita1024/waf
+
+Documentation: https://waf.io/book/
+
 Current build status
 ====================
 
