@@ -42,6 +42,8 @@ about:
   license_family: BSD
   license_file: utils/launcher/LICENSE
   summary: A build automation tool.
+  doc_url: https://waf.io/book/
+  dev_url: https://gitlab.com/ita1024/waf
 
 extra:
   recipe-maintainers:
