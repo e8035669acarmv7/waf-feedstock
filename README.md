@@ -405,7 +405,6 @@ Feedstock Maintainers
 =====================
 
 * [@dfroger](https://github.com/dfroger/)
-* [@hadim](https://github.com/hadim/)
 * [@jakirkham](https://github.com/jakirkham/)
 * [@nicoddemus](https://github.com/nicoddemus/)
 * [@tarcisiofischer](https://github.com/tarcisiofischer/)
